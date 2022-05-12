@@ -1,0 +1,42 @@
+
+.top_section {
+  background-image: linear-gradient(to right, #00349b, #47b9ff);
+  width: 100%;
+  padding: 3%;
+  height: auto;
+  color: white;
+}
+.right_side{
+  position: relative;
+  justify-content: center;
+  padding-top: 5% !important;
+  padding: 3%;
+  height: 80vh;
+  align-items: center;
+  border-top-left-radius: 10% 50%;
+  border-bottom-left-radius: 10% 50%;
+}
+.side{
+  position: relative;
+  justify-content: center;
+  padding-top: 5%;
+  align-items: center;
+}
+.h3{
+  margin-top: 10rem !important;
+}
+.side_img{
+  position: absolute;
+  width: 25%;
+  margin-left: -14%;
+  margin-bottom: 5%;
+  animation: moves 1.2s infinite alternate;
+}
+@keyframes moves{
+  from{
+    margin-top: 18%;
+  }
+  to{
+    margin-top: 5%;
+  }
+}
