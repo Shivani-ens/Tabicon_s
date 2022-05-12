@@ -7,7 +7,7 @@ const Install = () => {
         console.log(shop);
     }
     const verifyShop=()=>{
-
+        console.log('Installed');
     }
   return (
     <React.Fragment>
