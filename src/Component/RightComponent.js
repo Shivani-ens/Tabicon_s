@@ -60,10 +60,10 @@ const RightComponent = ({ arg: {user, setUser, handleSubmit}}) => {
           <div className="form-group mb-3">
           <label HtmlFor=""></label>
             <select className="form-select" onChange={(e)=> setUser({...user, [e.target.name]:e.target.value})} name="secondTextEmoji" id="" aria-label="Floating label select example">
-            <option value="1" selected>&#128536;</option>
-            <option value="2" >&#128525;</option>
-            <option value="3" >&#128540;</option>
-            <option value="4" >&#129300;</option>
+            <option value="&#128536;" selected>&#128536;</option>
+            <option value="&#128525;" >&#128525;</option>
+            <option value="&#128540;" >&#128540;</option>
+            <option value="&#129300;" >&#129300;</option>
             </select>
           </div>
         </div>
@@ -75,10 +75,10 @@ const RightComponent = ({ arg: {user, setUser, handleSubmit}}) => {
           <label HtmlFor=""></label>
             <select className="form-select" name="icon" onChange={(e)=> setUser({...user, [e.target.name]:e.target.value})} id="" aria-label="Floating label select example">
             <option className='justify-content-end text-muted' value="1" selected disabled>Choose the icon</option>
-            <option className='justify-content-end' value="2">Heartgift &#128157; </option>
-            <option className='justify-content-end' value="3">Fire &#128293; </option>
-            <option className='justify-content-end' value="4">Home &#128146; </option>
-            <option className='justify-content-end' value="5">Diamond &#128142; </option>
+            <option className='justify-content-end' value="Heartgift &#128157;">Heartgift &#128157; </option>
+            <option className='justify-content-end' value="Fire &#128293; ">Fire &#128293; </option>
+            <option className='justify-content-end' value="Home &#128146; ">Home &#128146; </option>
+            <option className='justify-content-end' value="Diamond &#128142;">Diamond &#128142; </option>
             </select>
           </div>
         </div>
