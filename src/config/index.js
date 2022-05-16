@@ -1,8 +1,9 @@
-
-const aName = {
-    SHOPIFY_API_KEY     : process.env.REACT_APP_SHOPIFY_API_KEY,
-    SHOPIFY_API_SECRET_KEY : process.env.REACT_APP_SHOPIFY_API_SECRET_KEY,
-    SHOPIFY_API_SCOPES     : process.env.REACT_APP_SHOPIFY_API_SCOPES,
-    REDIRECT_URI : process.env.REACT_APP_REDIRECT_URI,
-};
-export default aName;
+// import dotenv from "dotenv"
+// dotenv.config()
+const index=()=>{};
+export default index ({
+    apiKey     : process.env.REACT_APP_API_KEY,
+    secretKey : process.env.REACT_APP_API_SECRET_KEY,
+    scopes    : process.env.REACT_APP_API_SCOPES,
+    redirectUri : process.env.REACT_APP_REDIRECT_URI,
+});

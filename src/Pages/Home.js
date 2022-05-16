@@ -3,6 +3,7 @@ import LeftSide from '../Component/LeftSide'
 import RightSide from '../Component/RightSide'
 import Section from '../Component/Section'
 
+
 const Home = () => {
   return (
     <React.Fragment>
