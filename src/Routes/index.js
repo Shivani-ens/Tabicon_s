@@ -13,7 +13,7 @@ const Index = () => {
         <Route exact path='/' element={<Install/>}/>
         <Route exact path='/home' element={<Home/>}/>
         <Route exact path='/AppInstall' element={<AppInstall/>}/>
-        <Route exact path='/shopify' element={<Shopify/>}/>
+        <Route exact path='/Shopify' element={<Shopify/>}/>
         <Route exact path='*' element={<NotFound/>}/>
     </Routes>
     </BrowserRouter>

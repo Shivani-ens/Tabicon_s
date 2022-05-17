@@ -1,17 +1,17 @@
 
 import { useEffect } from "react";
-// import config from "../config"
+import config from "../config"
 
 
 
 const Shopify = () => {
-  // const { apiKey, scopes, redirectUri } = config;
-  const apiKey = process.env.REACT_APP_API_KEY;
-  const scopes = process.env.REACT_APP_API_SCOPES;
-  const redirectUri = process.env.REACT_APP_REDIRECT_URI;
-  debugger
-  const oAuthUrl = `https://blue-heavenn.myshopify.com/admin/oauth/authorize?client_id=${apiKey}&scope=${scopes}&redirectUri=${redirectUri}&state=sasassa321dsad `;
- 
+  const { apiKey, scopes, redirect_uri } = config;
+  // const scopes = process.env.REACT_APP_SCOPES;
+  // const apiKey = process.env.REACT_APP_API_KEY;
+  // const redirect_uri = process.env.REACT_APP_REDIRECT_URI
+  const oAuthUrl = `https://blue-heavenn.myshopify.com/admin/oauth/authorize?client_id=${apiKey}&scope=${scopes}&redirect_uri=${redirect_uri}&state=sasassa321dsad `;
+ debugger
+
   useEffect(() => {
     window.location.href = oAuthUrl;
   
